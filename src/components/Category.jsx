@@ -48,7 +48,7 @@ const Category = () => {
           <h2>Filter by price</h2>
           <div className="inputItem">
             <span>100</span>
-            <input type="range" min={59} max={1000} onChange={(e)=>setMaxPrice(e.target.value)} />
+            <input type="range" min={100} max={1000} onChange={(e)=>setMaxPrice(e.target.value)} />
             <span>{maxPrice}</span>
           </div>
         </div>
